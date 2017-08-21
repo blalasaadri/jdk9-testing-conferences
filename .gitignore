@@ -1,0 +1,9 @@
+# Generated code
+build
+
+# Gradle
+.gradle
+
+# IntelliJ IDEA
+.idea
+*.iml
