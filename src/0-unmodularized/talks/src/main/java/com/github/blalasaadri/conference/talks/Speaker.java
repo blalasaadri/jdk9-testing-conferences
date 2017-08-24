@@ -19,6 +19,9 @@ public interface Speaker {
     Optional<String> getCompanyOrInstitute();
 
     @Nonnull
+    Optional<String> getJobTitle();
+
+    @Nonnull
     List<String> getQualifications();
 
     @Nonnull
