@@ -1,2 +1,4 @@
 rootProject.name = 'parent'
 
+include 'src/main/'
+
