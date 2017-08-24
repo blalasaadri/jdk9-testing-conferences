@@ -28,7 +28,7 @@ public final class ProposedTalk implements Talk {
         requireNonNull(speaker, "This talk won't hold itself.");
         requireNonNull(type, "You have to choose a type of talk. No way around it.");
 
-        this.id = UUID.fromString(title);
+        this.id = UUID.randomUUID();
         this.title = title;
         this.talkAbstract = talkAbstract;
         this.notes = notes;
