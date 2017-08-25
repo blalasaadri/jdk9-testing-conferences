@@ -1,0 +1,9 @@
+subprojects {
+    afterEvaluate {
+        repositories {
+            jcenter()
+        }
+    }
+}
+
+apply plugin: 'idea'
