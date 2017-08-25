@@ -1,3 +1,4 @@
 rootProject.name = 'conference'
 
 include 'talks'
+include 'speakers'
